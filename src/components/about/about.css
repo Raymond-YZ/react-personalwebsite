@@ -1,0 +1,99 @@
+.a{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+    
+}
+
+.a-left{
+    flex: 1;
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.a-right{
+    flex: 1;
+    padding: 30px;
+    /* align-items: center;
+    justify-content: center;
+    height: 100%; */
+}
+
+.a-card{
+    width: 60%;
+    height: 70vh;
+    border-radius: 30px;
+    position: absolute;
+    overflow: hidden;
+}
+
+.a-card.bg{
+    background-color: rgb(192, 176, 74);
+    position: absolute;
+    top:50px;
+    left:50px;
+   
+}
+
+.a-img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.a-sub{
+    font-family: 'Poppins', sans-serif;
+    margin: 20px 0px;
+}
+
+.a-company{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.a-company-img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+.a-company-texts{
+    width: 70%;;
+}
+.a-company-title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.a-company-desc{
+    font-family: 'Poppins', sans-serif;
+    
+}
+
+.a-company-role-wrapper{
+    height: 100%;
+    animation: move 6s ease-in-out infinite alternate;
+}
+
+@keyframes move{
+    50%{
+        transform: translateY(-50px);
+    }
+    100%{
+        transform: translateY(-100px);
+    }
+}
+
+.a-title{
+    font-weight: 400;
+    font-size: 50px;
+}
+
