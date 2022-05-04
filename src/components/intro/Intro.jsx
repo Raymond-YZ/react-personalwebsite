@@ -18,15 +18,15 @@ const Intro = () => {
                         <div className="i-title-wrapper">
                             <div className="i-title-item">Software Engineer</div>
                             <div className="i-title-item">Front-End Developer</div>
-                            <div className="i-title-item">Content Creator</div>
+                            
                         </div>
                     </div>
                     <div className="i-desc">
 
                         Hello, and welcome to my personal website!  I mainly created this website so that I can document my past projects,
-                        but also give people an insight of who I am outside of work. I love swimming, photographing/vlogging, going on drives,
-                        and occasionally competing in VALORANT for fun.
-                        I am an incoming software engineer at Walmart Inc. and will be beginning my tech career this July! I am looking forward to this next chapter!
+                        but also give people an insight of who I am outside of work. Some of my hobbies include swimming, photographing/vlogging, going on drives, streaming,
+                        and occasionally competing in VALORANT for fun. Scroll down to see some of my past projects or to know more about me!
+                       
 
                     </div>
 

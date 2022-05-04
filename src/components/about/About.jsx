@@ -13,7 +13,6 @@ const About = () => {
             </div>
             <div className="a-right">
                 <h1 className="a-title">About Me</h1>
-                <br />
                 <p className="a-sub">Born in Penang, Malaysia on March 28, 2000, I am the first child in my extended family to live and grow up as
                     an Asian-American (specifically Chinese-Malaysian-American).
                     I first moved to San Jose, CA in June of 2000 and then to Sunnyvale, CA in September of 2004. Despite the
@@ -24,7 +23,6 @@ const About = () => {
                     and I continue to celebrate the many holidays that I would have otherwise celebrated had I still lived in
                     Asia.
                 </p>
-                <br />
                 <p className="a-sub">
                     I attended Homestead High School, where I learned Spanish as a third language. I was an avid member of
                     the
@@ -32,7 +30,6 @@ const About = () => {
                     this time, I learned practical business values through attending FBLA Leadership Conferences and
                     even earned awards at the state and national levels.
                 </p>
-                <br />
                 <p className="a-sub">
                     I recently graduated from the University of California, Santa Cruz with a Bachelors of Science in Computer
                     Science. It was a last minute decision as I believed that graduating early in December 2021
@@ -43,7 +40,12 @@ const About = () => {
                     overlooking all operations of the club in addition to helping
                     acclimate new students to college life.
                 </p>
-                <br />
+               
+                <p>
+                    Most recently, I have accepted a position at Walmart as a Software Engineer which I will finally begin my professional career this upcoming July.
+                    I am excited to begin this new chapter and am grateful to everyone that has supported me throughout my college journey, including my parents and the many friends I got to know throughout my 3.5 years in college.
+                </p>
+             
                 <p className="a-sub">
                     I hope this brief summary of my life helped you get to know me a bit better, if you want to know how I can
                     be beneficial to your
@@ -57,6 +59,7 @@ const About = () => {
                             <div className="a-company-role-wrapper">
                                 <p className="a-company-desc">Co-Chair<br /><i>April 2021 - June 2022</i></p>
                                 <br />
+
                                 <p className="a-company-desc">Banquet Coordinator<br /><i>April 2020 - April 2021</i></p>
                             </div>
                         </div>

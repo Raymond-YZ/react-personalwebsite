@@ -61,7 +61,6 @@ const Gaming = () => {
                                     <i>April 2020 - November 2021</i>
                                 </p>
                                 <br />
-                                
                                 <p className="g-company-desc">CS:GO/VALORANT Director
                                     <br />
                                     <i>April 2019 - November 2021</i>
